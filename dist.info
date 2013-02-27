@@ -1,0 +1,47 @@
+type = "x86_64"
+arch = "Ubuntu"
+author = "Yuri Takhteyev"
+depends = {
+[[lua ~> 5.1]],
+}
+
+desc = "A markitup plugin for Sputnik"
+version = "9.03.16"
+maintainer = "Peter Drahoš"
+files = {
+Runtime = {
+[[lib/lua/sputnik/editor/markitup.lua]],
+[[lib/lua/sputnik/node_defaults/markitup/js/markitup.lua]],
+[[lib/lua/sputnik/node_defaults/markitup/js/markdown.lua]],
+[[lib/lua/sputnik/node_defaults/markitup/css/simple.lua]],
+[[lib/lua/sputnik/node_defaults/markitup/css/markdown.lua]],
+[[lib/lua/sputnik/node_defaults/markitup/images/list-bullet.lua]],
+[[lib/lua/sputnik/node_defaults/markitup/images/handle.lua]],
+[[lib/lua/sputnik/node_defaults/markitup/images/quotes.lua]],
+[[lib/lua/sputnik/node_defaults/markitup/images/h2.lua]],
+[[lib/lua/sputnik/node_defaults/markitup/images/menu.lua]],
+[[lib/lua/sputnik/node_defaults/markitup/images/indent.lua]],
+[[lib/lua/sputnik/node_defaults/markitup/images/link.lua]],
+[[lib/lua/sputnik/node_defaults/markitup/images/code.lua]],
+[[lib/lua/sputnik/node_defaults/markitup/images/h6.lua]],
+[[lib/lua/sputnik/node_defaults/markitup/images/list-numeric.lua]],
+[[lib/lua/sputnik/node_defaults/markitup/images/picture.lua]],
+[[lib/lua/sputnik/node_defaults/markitup/images/h3.lua]],
+[[lib/lua/sputnik/node_defaults/markitup/images/h5.lua]],
+[[lib/lua/sputnik/node_defaults/markitup/images/preview.lua]],
+[[lib/lua/sputnik/node_defaults/markitup/images/bold.lua]],
+[[lib/lua/sputnik/node_defaults/markitup/images/italic.lua]],
+[[lib/lua/sputnik/node_defaults/markitup/images/h1.lua]],
+[[lib/lua/sputnik/node_defaults/markitup/images/submenu.lua]],
+[[lib/lua/sputnik/node_defaults/markitup/images/indent_remove.lua]],
+[[lib/lua/sputnik/node_defaults/markitup/images/h4.lua]],
+[[lib/lua/sputnik/node_defaults/markitup/editor_test.lua]],
+[[lib/lua/sputnik/node_defaults/editor_test.lua]],
+[[lib/lua/sputnik/actions/editor.lua]],
+}
+,
+}
+
+license = "MIT/X11"
+name = "sputnik_markitup"
+url = "http://spu.tnik.org"
